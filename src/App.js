@@ -1,10 +1,12 @@
 
-import './App.css';
+
+import Glosario from "./components/GlosarioItem";
 
 function App() {
   return (
     <div className="App">
-      holaa
+      <Glosario/>
+
     </div>
   );
 }
