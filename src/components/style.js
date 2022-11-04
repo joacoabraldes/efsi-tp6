@@ -3,6 +3,8 @@ import styled from 'styled-components'
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: 100%;
     align-items: center;
 `
 
@@ -30,6 +32,29 @@ export const Columna = styled.div`
 `
 export const Categoria = styled.p`
     font-weight: bold;
+    margin: 3px;
 `
 
+export const CANT = styled.p`
+    color: red;
+   width: 50%;
+   margin: 0;
+   padding-right: 5px;
+   padding-left: 5px;
+`
 
+export const Resources = styled.p`
+    color: black;
+   width: 75%;
+   padding-right: 50px;
+   margin: 0;
+   padding-left: 2px;
+`
+
+export const RowMini = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+`

@@ -1,12 +1,12 @@
-import { Row, Container, Circulo, Columna, Categoria, AAA, RowMini} from "./style";
+import { Row, Container, Circulo, Columna, Categoria, CANT, RowMini, Resources} from "./style";
 
 const Glosario = (data) => {
     function validarCantidad(cant) {
         if (cant === 0) {
-            return <p>No Resources</p>
+            return <Resources>No Resources</Resources>
         }
         else if (cant > 0) {
-            return <p>{cant} Resources</p>
+            return <RowMini><CANT> {cant} </CANT> <Resources> Resources </Resources></RowMini>
         }
     }
 
